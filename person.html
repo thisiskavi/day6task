@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class person {
+            constructor(name,age,address) {
+                this.name = name;
+                this.age = age;
+                this.address = address;
+            }
+    
+           greet() {
+                console.log(
+                   `Hello, my name is ${this.name}, I an ${this.age} years old and I live in ${this.address}.`
+               );
+           }
+        }
+    
+const person1 = new person("Kavi", 26, "Kochi");
+person1.greet();
+    </script>
+</body>
+</html>
